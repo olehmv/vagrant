@@ -1,1 +1,0 @@
-{"virtualbox":{"data":{"create":false,"owner":null,"group":null,"nfs":false,"transient":false,"extra":null,"id":"data","guestpath":"/data","hostpath":"C:/Users/ASUS/git/vagrant/vagrant_book_example/data","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"C:/Users/ASUS/git/vagrant/vagrant_book_example","disabled":false,"__vagrantfile":true}}}
