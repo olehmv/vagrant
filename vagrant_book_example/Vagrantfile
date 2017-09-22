@@ -77,5 +77,5 @@ Vagrant::Config.run do |config|
  config.vm.box_url = "http://files.vagrantup.com/precise64.box"    
  config.vm.share_folder "data", "/data", "./data"
  config.vm.forward_port 80, 8080
- config.vm.provision "shell", path: "provision.sh"
+ config.vm.provision "chef_solo", run_list: ["vagrant_book"]
 end
